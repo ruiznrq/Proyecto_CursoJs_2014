@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Titulo del documento</title>
-</head>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curso JS</title>
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet"> 
+  </head>
+    
+  <body>
+    <!-- 4 botones y un desplegable -->  
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">Boton1</button>
+        <button type="button" class="btn btn-default">Boton2</button>
+        <button type="button" class="btn btn-default">Boton3</button>
+        <button type="button" class="btn btn-default">Boton4</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Desplegable
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Cosa 1</a></li>
+                <li><a href="#">Cosa 2</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Una Imagen -->
+    <div>
+         <img src="img/prueba.jpg" alt="Imagen de prueba 1" height="576" width="1024"> 
+    </div>
 
-<body>
-    Aqui empieza la magia...
-</body>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
